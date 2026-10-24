@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#173b32">
-<link rel="manifest" href="manifest.webmanifest">
+<link rel="manifest" href="/Mes-charges/manifest.webmanifest">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="/Mes-charges/icon-192.png">
 <title>Mes Charges Privé</title>
 <style>
 :root{--green:#173b32;--mint:#e6f1eb;--bg:#f5f7f5;--card:#fff;--text:#17231e;--muted:#66756d;--line:#dce5df;--orange:#9a5a13}
@@ -193,7 +193,7 @@ $("saveSettings").addEventListener("click",()=>{state.personA=$("personA").value
 load();defaultNameOptions();syncExpenseTypeFields();render();showDash(state.dashboardPerson||"Personne A");
 
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
-  window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+  window.addEventListener("load",()=>navigator.serviceWorker.register("/Mes-charges/sw.js", {scope:"/Mes-charges/"}).catch(()=>{}));
 }
 </script>
 </body></html>
