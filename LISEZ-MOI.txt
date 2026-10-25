@@ -1,0 +1,13 @@
+MES CHARGES PRIVÉ — V17
+
+Nouveautés :
+- distinction entre « Compte joint Crédit Mutuel » et « Compte joint Crédit Agricole » ;
+- ajout d’une colonne / an dans les tableaux de virements ;
+- le montant saisi est affiché en gras selon sa périodicité : / mois pour une dépense mensuelle, / an pour une dépense annuelle ;
+- les anciennes données restent dans le même stockage local. Les anciennes lignes « Compte joint » sont automatiquement rattachées au Compte joint Crédit Mutuel et peuvent ensuite être modifiées si nécessaire.
+
+MISE À JOUR GITHUB
+Remplacer : index.html, manifest.json et sw.js.
+Les icônes peuvent rester inchangées.
+
+V19 : ajout de la colonne / mois foyer dans les tableaux de virements. Le montant / mois foyer est en gras pour une dépense saisie mensuellement ; le montant / an foyer reste en gras pour une dépense saisie annuellement.
