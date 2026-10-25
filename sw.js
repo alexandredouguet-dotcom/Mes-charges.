@@ -1,4 +1,4 @@
-const CACHE = 'mes-charges-prive-v17';
+const CACHE = 'mes-charges-prive-v18';
 const BASE = '/Mes-charges/';
 const CORE = [BASE, BASE+'index.html', BASE+'manifest.json', BASE+'icon-192.png', BASE+'icon-512.png'];
 
